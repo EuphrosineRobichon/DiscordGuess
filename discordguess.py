@@ -19,7 +19,7 @@ print(Fore.LIGHTGREEN_EX + """
 token = input('Token: ')      # Discord Authorization Token
 delay = int(input('Delay: ')) # Seconds to wait between requests
 req = {}
-req['username'] = input('Username: ') # Username to guess
+req['username'] = input('Tmarre: ') # Username to guess
 token = token.replace('"', '')
 
 headers = { 'Host':             'discordapp.com',
